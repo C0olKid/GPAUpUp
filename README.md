@@ -6,6 +6,6 @@ sudo pip install requests
 sudo pip install schedule
 sudo pip install pytesseract
 ```
-账户密码等信息在源码内设置，在GLOBAL变量里，其中发送邮箱账户需要开通pop3服务，然后把授权码写到GLOBAL\['PASS'\]里，具体怎么开通自己搜索吧
+账户密码等信息在源码内设置，在GLOBAL变量里，其中发送邮箱账户需要开通pop3服务，然后把授权码写到GLOBAL\['SEND_PASS'\]里，具体怎么开通自己搜索吧
 
 对于定时设置，参考以下链接[python用schedule模块实现定时任务](https://blog.csdn.net/zd147896325/article/details/80003982)
