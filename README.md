@@ -1,4 +1,4 @@
-# 此脚本用来定期查询东北大学莘莘学子的成绩，发现GPA更新后给自己发送通知邮件
+# 此脚本用来定期查询GPA，发现GPA更新后给自己发送通知邮件
 可能需要安装的库有requests,schedule,pytesseract,推荐使用pip安装，在Linux下可以使用如下命令进行安装
 ```sh
 sudo apt-get install python-pip         
